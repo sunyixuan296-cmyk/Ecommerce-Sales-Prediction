@@ -248,7 +248,7 @@ def create_multi_boxplot(df, columns, title, save_path=None):
 def main():
     """主函数：执行完整的箱线图分析流程"""
     # 1. 加载和清洗数据
-    file_path = 'cleaned_data.csv'  # 请根据实际文件路径修改
+    file_path = 'data/cleaned_data.csv'  # 请根据实际文件路径修改
     try:
         df = load_and_clean_data(file_path)
     except Exception as e:
