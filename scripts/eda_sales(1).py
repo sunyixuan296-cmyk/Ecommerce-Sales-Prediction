@@ -10,7 +10,7 @@ plt.rcParams['ytick.labelsize'] = 14                # y刻度数字大小
 plt.rcParams['font.weight'] = 'bold'                # 全局数字粗体
 
 # 读取数据
-df = pd.read_csv("cleaned_data.csv")
+df = pd.read_csv("data/cleaned_data.csv")
 
 # ====================== 图1：销量分布（正方形、去上/左边框） ======================
 fig, ax = plt.subplots(figsize=(8, 8))  # 正方形画布
