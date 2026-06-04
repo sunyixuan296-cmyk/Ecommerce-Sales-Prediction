@@ -6,7 +6,7 @@ plt.rcParams['font.sans-serif'] = ['SimHei']  # 用黑体显示中文
 plt.rcParams['axes.unicode_minus'] = False    # 正常显示负号
 
 # ---------------------- 1. 读取清洗好的数据 ----------------------
-df = pd.read_csv("cleaned_data.csv")
+df = pd.read_csv("data/cleaned_data.csv")
 df['date'] = pd.to_datetime(df['date'])  # 转日期
 
 # ---------------------- 2. 基础统计分析（自动出结论） ----------------------
